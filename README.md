@@ -50,4 +50,5 @@ For each table there is a coresponding CRUD repository defined as spring-data jp
 
 All these repositories are being injected into `FlightService` as dependencies. <br /> 
 
-Finally there is a controller class `FlightController` which encapsulates the `FlightService`
+Finally there is a controller class `FlightController` which encapsulates the `FlightService` <br /> 
+and exposes API to the client
