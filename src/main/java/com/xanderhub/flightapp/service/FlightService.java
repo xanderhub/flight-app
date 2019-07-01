@@ -8,8 +8,6 @@ import com.xanderhub.flightapp.repository.TicketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.zip.CheckedOutputStream;
-
 @Service
 public class FlightService {
     private final TicketRepository ticketRepository;
