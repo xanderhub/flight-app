@@ -10,9 +10,25 @@ Flights Application Assignment
 
 
 ## GET request example:
-
+```
 localhost:8080/api/tickets?ticketId=100
-
+```
+```
+localhost:8080/api/coupons?couponId=123456789&price=100
+```
+### Response example:
+```
+{
+    "price": 50,
+    "msg": "Coupon is valid"
+}
+```
+```
+{
+    "price": 100,
+    "msg": "Coupon is not valid!"
+}
+```
 
 ## Description
 The app uses H2 in-memory database as data source.
